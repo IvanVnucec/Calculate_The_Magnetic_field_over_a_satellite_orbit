@@ -1,4 +1,4 @@
-% Copyright (c) 2019, Ivan Vnuèec
+% Copyright (c) 2019, Ivan Vnucec
 % All rights reserved.
 %
 % Redistribution and use in source and binary forms, with or without
