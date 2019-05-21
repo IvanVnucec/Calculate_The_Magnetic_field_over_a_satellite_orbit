@@ -67,4 +67,3 @@ plot(I);
 title('I')
 xlabel('point num') 
 ylabel('[deg]') 
-
