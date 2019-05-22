@@ -39,7 +39,7 @@ i       =  51.64;             % inclination                       [deg]
 a       =  6700;              % Major semi-axis           (>6378) [km]
 e       =  0.001;             % Eccentricity
 start_time = datetime('now'); % UTC time of sattelite starting point
-norb = 2;                     % number of orbits
+norb = 5;                     % number of orbits
 time_step = 60;               % Calculate point every time_step   [s],
                               %   decrease for faster calculation
 
