@@ -1,3 +1,16 @@
+function [E] = anom_ecc(M,e)
+E = M;
+k = 1;
+err = 1e-10;
+
+while (k>err)
+    y = e*sin(E)+M;
+    k = abs(abs(E)-abs(y));
+    E = y;
+end
+end
+
+
 % Copyright (c) 2014, Ennio Condoleo
 % All rights reserved.
 %
@@ -26,15 +39,3 @@
 % This code is modified version of Ennio Condoleo program which can be
 % found here:
 % https://www.mathworks.com/matlabcentral/fileexchange/45573-orbit3d
-
-function [E] = anom_ecc(M,e)
-E = M;
-k = 1;
-err = 1e-10;
-
-while (k>err)
-    y = e*sin(E)+M;
-    k = abs(abs(E)-abs(y));
-    E = y;
-end
-end
