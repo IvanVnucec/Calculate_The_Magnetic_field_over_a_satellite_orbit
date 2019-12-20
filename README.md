@@ -2,7 +2,7 @@
 
 Given orbit parameters and Universal Coordinated Time (UTC) the program calculates vector of magnetic field over number of points on the satellite orbit. This program was used as demonstration for the CubeSat program at the University of Zagreb.
 
-![](untitled.bmp)
+![](output_example.bmp)
 
 ## Getting Started
 
