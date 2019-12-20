@@ -1,6 +1,8 @@
-# Project Title
+# Magnetic field over satellite orbit
 
-One Paragraph of project description goes here
+Given orbit parameters and Universal Coordinated Time (UTC) the program calculates vector of magnetic field over number of points on the satellite orbit. This program was used as demonstration for the CubeSat program at the University of Zagreb.
+
+![](untitled.bmp)
 
 ## Getting Started
 
@@ -8,67 +10,23 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+Program requires [Aerospace Toolbox](https://www.mathworks.com/products/aerospace-toolbox.html) to be already installed.
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+1. Clone this repository,
+2. Open `main.m` file and there you have orbit parameters to tweak.
 
-Say what the step will be
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+## Running
+To get some data out of the system one should:
+1. Modify the orbit parameters and UTC time,
+2. Press Run button.
 
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
