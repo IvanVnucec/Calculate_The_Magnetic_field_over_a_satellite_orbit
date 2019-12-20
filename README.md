@@ -37,7 +37,7 @@ time_step = 60;               % Calculate point every time_step   [s],
 
 ## Authors
 
-* **Ivan Vnučec** - [GitHub](https://github.com/PurpleBooth)
+* **Ivan Vnučec** - [GitHub](https://github.com/IvanVnucec)
                   - [LinkedIn](https://www.linkedin.com/in/ivan-vnucec/)
 
 ## License
