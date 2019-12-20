@@ -20,7 +20,19 @@ Program requires [Aerospace Toolbox](https://www.mathworks.com/products/aerospac
 
 ## Running
 To get some data out of the system one should:
-1. Modify the orbit parameters and UTC time,
+1. Modify the orbit parameters and UTC time at the top of the `main.m` file:
+```
+RAAN    =  38;                % Right Ascension of Ascendent Node [deg]
+w       =  35;                % Argument of perigee               [deg]
+v0      =  54;                % True anomaly at the departure     [deg]
+i       =  51.64;             % inclination                       [deg]
+a       =  6700;              % Major semi-axis           (>6378) [km]
+e       =  0.001;             % Eccentricity
+start_time = datetime('now'); % UTC time of sattelite starting point
+norb = 5;                     % number of orbits
+time_step = 60;               % Calculate point every time_step   [s],
+                              %   decrease for faster calculation
+```
 2. Press Run button.
 
 ## Contributing
