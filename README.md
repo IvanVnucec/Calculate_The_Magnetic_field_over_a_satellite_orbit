@@ -35,16 +35,10 @@ time_step = 60;               % Calculate point every time_step   [s],
 ```
 2. Press Run button.
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Ivan Vnučec** - [GitHub](https://github.com/PurpleBooth)
+                  - [LinkedIn](https://www.linkedin.com/in/ivan-vnucec/)
 
 ## License
 
@@ -52,7 +46,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Special thanks to Ennio Condoleo. This code is modified version of his program which can be found here: [LINK](https://www.mathworks.com/matlabcentral/fileexchange/45573-orbit3d)
+
+* This program was used as a Project on the FER CubeSat called FERSAT at the University of Zagreb. [LINK](https://www.fer.unizg.hr/zrk/FERSAT).
 
